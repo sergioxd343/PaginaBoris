@@ -1,0 +1,7 @@
+.background-foother {
+    /* Ajusta la altura según tus necesidades */
+    background-image: url('../../../public/FONDO_FOTHER.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}

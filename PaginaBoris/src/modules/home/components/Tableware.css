@@ -1,0 +1,7 @@
+.background-tableware {
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+    background-image: url('../../../home/BANNER\ 2.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }

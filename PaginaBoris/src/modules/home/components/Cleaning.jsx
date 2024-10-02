@@ -4,16 +4,16 @@ function Cleaning() {
       <div className="row justify-content-center">
         <div className="col-lg-1"></div>
         <div className="col-lg-4 align-self-center align-items-center m-3">
-          <h3>Perfectos para tu organización</h3>
-          <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-            reprehenderit impedit rem, magnam delectus officia, obcaecati, sed
-            numquam aliquam totam ea facilis nobis hic voluptate quae architecto
-            a modi! Consectetur?
-          </span>
+          <p><span style={{ fontWeight: '600', fontSize: '24px'}}>Perfectos para tu organización</span></p>
+          <p>
+            <span style={{ fontSize: '14px' }}>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
+              reprehenderit impedit rem, magnam delectus officia, obcaecati
+            </span>
+          </p>
           <br />
-          <div className="">
-            <button className="btn btn-primary rounded-pill m-5 ms-auto d-block px-5">
+          <div>
+            <button className="btn btn-primary rounded-pill m-3 ms-auto d-block px-5">
               Conocenos
             </button>
           </div>

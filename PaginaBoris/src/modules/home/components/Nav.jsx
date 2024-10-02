@@ -92,22 +92,26 @@ function Nav() {
       {/* Modal */}
       {isModalOpen && (
         <div className="custom-modal">
-          <div className="modal-content">
-            <button className="close-modal" onClick={toggleModal}>
-              ✖
-            </button>
-            <input
-              type="text"
-              placeholder="Qué tal, ¿Qué estás buscando?"
-              className="search-input"
-            />
-            <h2>
-              <a href="">Home</a>
-            </h2>
-            <h3>Colecciones</h3>
-            <h3>Empresa</h3>
+        <div className="modal-content">
+          <button className="close-modal ms-auto" onClick={toggleModal}>
+            x
+          </button>
+          <input
+            type="text"
+            placeholder="Qué tal, ¿Qué estás buscando?"
+            className="search-input d-block mb-3"
+          />
+          <div className="col-lg-6 d-flex flex-column align-items-end">
+            <br />
+            <a href="" style={{ textDecoration:'none' }}><span style={{ color: 'white', fontWeight:'500', fontSize:'20px' }}>Home</span></a>
+            <br />
+            <a href="" style={{ textDecoration:'none' }}><span style={{ color: 'white',fontWeight:'500',fontSize:'20px'  }}>Colecciones</span></a>
+            <br />
+            <a href="" style={{ textDecoration:'none' }}><span style={{ color: 'white', fontWeight:'500',fontSize:'20px'  }}>Empresa</span></a>
           </div>
         </div>
+      </div>
+      
       )}
     </>
   );

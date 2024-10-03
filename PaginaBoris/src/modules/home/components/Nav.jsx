@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
@@ -103,11 +104,17 @@ function Nav() {
           />
           <div className="col-lg-6 d-flex flex-column align-items-end">
             <br />
-            <a href="" style={{ textDecoration:'none' }}><span style={{ color: 'white', fontWeight:'500', fontSize:'20px' }}>Home</span></a>
+            <Link to="/" style={{ textDecoration: 'none' }}>
+              <span style={{ color: 'white', fontWeight: '500', fontSize: '20px' }}>Home</span>
+            </Link>
             <br />
-            <a href="" style={{ textDecoration:'none' }}><span style={{ color: 'white',fontWeight:'500',fontSize:'20px'  }}>Colecciones</span></a>
+            <Link to="/cleaning" style={{ textDecoration: 'none' }}>
+              <span style={{ color: 'white', fontWeight: '500', fontSize: '20px' }}>Limpieza</span>
+            </Link>
             <br />
-            <a href="" style={{ textDecoration:'none' }}><span style={{ color: 'white', fontWeight:'500',fontSize:'20px'  }}>Empresa</span></a>
+            <Link to="/empresa" style={{ textDecoration: 'none' }}>
+              <span style={{ color: 'white', fontWeight: '500', fontSize: '20px' }}>Empresa</span>
+            </Link>
           </div>
         </div>
       </div>

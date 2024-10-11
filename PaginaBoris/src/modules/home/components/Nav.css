@@ -121,3 +121,46 @@ li a {
 li a:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 768px) {
+  .logo-boris {
+    width: 100px !important; /* Cambia el tamaño de la imagen BORIS en móvil */
+    margin-left: 0 !important; /* Ajusta la imagen hacia el borde izquierdo */
+  }
+
+  .menu-icon {
+    width: 20px !important; /* Cambia el tamaño de la imagen del menú en móvil */
+    margin-right: 0 !important; /* Ajusta la imagen hacia el borde derecho */
+  }
+
+  .container {
+    left: 2% !important; /* Reduce el espacio lateral en móviles */
+  }
+
+  .p-5 {
+    padding: 2rem !important; /* Ajusta el padding en móviles */
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .overlay-text h1 {
+    font-size: 28px !important; /* Reducir el tamaño de la fuente del título */
+  }
+
+  .overlay-text p {
+    font-size: 14px !important; /* Reducir el tamaño de la fuente del párrafo */
+  }
+}
+
+@media (max-width: 576px) {
+  .overlay-text h1 {
+    font-size: 22px !important; /* Reducir más el tamaño del título en pantallas pequeñas */
+  }
+
+  .overlay-text p {
+    font-size: 12px !important; /* Reducir más el tamaño del párrafo */
+  }
+}

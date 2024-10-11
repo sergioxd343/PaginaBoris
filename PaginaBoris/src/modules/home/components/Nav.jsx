@@ -55,7 +55,7 @@ function Nav() {
                   fontSize: "60px",
                 }}
               >
-                Diseño Innovador
+                Diseño <br /> Innovador
               </h1>
               <p>Descubre nuevos sabores y experiencias.</p>
             </div>
@@ -71,7 +71,8 @@ function Nav() {
               <img
                 src="../../../../BORIS_BLANCO.png"
                 alt="logo"
-                style={{ width: "150px" }}
+                className="logo-boris"
+                style={{ width: "150px" }} /* Tamaño por defecto */
               />
             </div>
             <div className="col d-flex justify-content-end">
@@ -82,7 +83,8 @@ function Nav() {
                 <img
                   src="../../../Menu.png"
                   alt="menu"
-                  style={{ width: "30px" }}
+                  className="menu-icon"
+                  style={{ width: "30px" }} /* Tamaño por defecto */
                 />
               </button>
             </div>
@@ -93,32 +95,55 @@ function Nav() {
       {/* Modal */}
       {isModalOpen && (
         <div className="custom-modal">
-        <div className="modal-content">
-          <button className="close-modal ms-auto" onClick={toggleModal}>
-            x
-          </button>
-          <input
-            type="text"
-            placeholder="Qué tal, ¿Qué estás buscando?"
-            className="search-input d-block mb-3"
-          />
-          <div className="col-lg-6 d-flex flex-column align-items-end">
-            <br />
-            <Link to="/" style={{ textDecoration: 'none' }}>
-              <span style={{ color: 'white', fontWeight: '500', fontSize: '20px' }}>Home</span>
-            </Link>
-            <br />
-            <Link to="/cleaning" style={{ textDecoration: 'none' }}>
-              <span style={{ color: 'white', fontWeight: '500', fontSize: '20px' }}>Limpieza</span>
-            </Link>
-            <br />
-            <Link to="/empresa" style={{ textDecoration: 'none' }}>
-              <span style={{ color: 'white', fontWeight: '500', fontSize: '20px' }}>Empresa</span>
-            </Link>
+          <div className="modal-content">
+            <button className="close-modal ms-auto" onClick={toggleModal}>
+              x
+            </button>
+            <input
+              type="text"
+              placeholder="Qué tal, ¿Qué estás buscando?"
+              className="search-input d-block mb-3"
+            />
+            <div className="col-lg-6 d-flex flex-column align-items-end">
+              <br />
+              <Link to="/" style={{ textDecoration: "none" }}>
+                <span
+                  style={{
+                    color: "white",
+                    fontWeight: "500",
+                    fontSize: "20px",
+                  }}
+                >
+                  Home
+                </span>
+              </Link>
+              <br />
+              <Link to="/cleaning" style={{ textDecoration: "none" }}>
+                <span
+                  style={{
+                    color: "white",
+                    fontWeight: "500",
+                    fontSize: "20px",
+                  }}
+                >
+                  Limpieza
+                </span>
+              </Link>
+              <br />
+              <Link to="/empresa" style={{ textDecoration: "none" }}>
+                <span
+                  style={{
+                    color: "white",
+                    fontWeight: "500",
+                    fontSize: "20px",
+                  }}
+                >
+                  Empresa
+                </span>
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-      
       )}
     </>
   );

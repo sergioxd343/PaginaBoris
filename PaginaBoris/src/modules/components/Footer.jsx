@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-12 row justify-content-center p-3" style={{ backgroundColor: '#3c3c3c', color: 'white' }}>
+      <div className="col-lg-12 d-flex justify-content-center p-3" style={{ backgroundColor: '#3c3c3c', color: 'white' }}>
           &copy; Industrias Boris S.A. DE S.V 2024 - Politicas de Privacidad - Aviso Legal - Politicas de Cookies
       </div>
     </footer>

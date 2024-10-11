@@ -1,6 +1,6 @@
 import Nav from "./components/Nav";
 import Catalog from "./components/Catalog";
-import Products from "../components/Products";
+import Products from "../components/Styles";
 import CatalogAll from "./components/CatalogAll";
 import Footer from "../components/Footer";
 

@@ -5,6 +5,7 @@ import 'typeface-playfair-display';
 import 'slick-carousel/slick/slick.css';
 import "slick-carousel/slick/slick-theme.css";
 import Cleaning from './modules/cleaning/Cleaning';
+import CleaningProducts from './modules/cleaning/cleaningProducts/CleaningProducts';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cleaning" element={<Cleaning />} />
+        <Route path="/cleaning/products" element={<CleaningProducts />} />
       </Routes>
     </>
   )
